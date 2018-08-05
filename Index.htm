@@ -1,0 +1,863 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+            <link rel="icon" href="Images/virag.png">
+
+           <title>Virag Meghani Resume</title>
+            
+                    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"  rel="stylesheet" type="text/css" />
+           
+           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+            
+           <link href="CSS/animate.css" rel="stylesheet" type="text/css" />
+           <link href="CSS/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		   <link href="JS/bootstrap.min.js" rel="stylesheet" type="text/css" />
+           <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" type="text/javascript" language="javascript"></script>
+    
+           <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+           <script src="JS/wow.min.js" type="text/javascript"></script>
+          
+           <script type="text/javascript">
+                new WOW().init();
+           </script>
+
+           <style type="text/css">
+            
+                #HeaderDiv a.navbar-brand
+	            {
+	                font-family:Monotype Corsiva;
+	                font-size:25px;    
+	                color:#ffffff;
+	            }
+	            #navbarCollapse li b
+	            {
+	                color:#ffffff;
+	            }
+	            
+                .fullscreen_bg 
+                {
+                    position:relative;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                    overflow:hidden;
+                    z-index:-1;
+                }
+
+                .fullscreen_bg_video 
+                {
+                    position:absolute;
+                    width: auto;
+                    height: auto;
+                    min-width: 100%;
+	                min-height: 100%;
+	            }
+	            
+	            #Home
+	            {
+	                height:auto;
+	                padding-bottom:40px;
+	                color:#fff;
+	                font-weight:bold
+	            }
+	            
+	            #HomeRow
+	            {
+	                padding-top:7%;   
+	            }
+	            #HomeRow a i.fa
+	            {
+	                color:#ffffff;
+	            }
+	            
+	            #HomeRow div.col-lg-offset-3
+	            {
+	                background:rgba(0,0,0,0.7); 
+	                padding-top:20px;
+	                padding-bottom:20px;
+	                border-radius:15px;
+	                box-shadow:0px 0px 10px Black;   
+	            }
+	            
+	            #TechnicalSummary
+	            {
+	                height:auto;
+	                padding-bottom:40px;
+	                color:#fff;
+	                background-attachment:fixed;
+	                background-image:url('Images/About_Image.jpg');
+	                background-repeat:no-repeat;
+	                background-size:cover;
+	                font-size:20px;
+	                line-height:1.5;
+	            }
+	            #TechnicalSummaryRow
+	            {
+	                padding-top:7%;
+	            }
+	            #TechnicalSummary h1
+	            {
+	                font-family:Monotype Corsiva;
+	            }
+	            
+	            #Qualifications
+	            {
+	                background-attachment:fixed;
+	                background-image:url('Images/Qualifications_Image.jpg');
+	                background-repeat:no-repeat;
+	                background-size:cover;
+	                font-size:20px;
+	                padding-bottom:40px;
+	                color:#000000;
+	            }
+	            #QualificationsRow
+	            {
+	                 margin-top:100px;
+	                 margin-bottom:100px;
+	            }
+	            #QualificationsRow div.col-lg-offset-1
+	            {
+	                padding:10px;
+	                background-color:#DCDCDC;
+	                border-radius:15px;
+	                box-shadow:0px 0px 18px black;
+	                opacity:0.7;
+	            }
+	            #Qualifications table
+	            {
+	                width:100%;
+	                margin-top:50px;
+	            }
+	            #Qualifications table tr td
+	            {
+	                padding-bottom:20px;
+	            }
+	            #Qualifications table tr td:first-child
+	            {
+	                width:30%;
+	                padding-left:10px;
+	            }
+	            
+	            #Skills
+	            {
+	                background-attachment:fixed;
+	                background-image:url('Images/Qualifications_Image.jpg');
+	                background-repeat:no-repeat;
+	                background-size:cover;
+	                font-size:20px;
+	                padding-bottom:40px;
+	                color:#000000;
+	            }
+	            #SkillsRow
+	            {
+	                 margin-top:100px;
+	                 margin-bottom:100px;
+	            }
+	            #SkillsRow div.col-lg-offset-5
+	            {
+	                padding:10px;
+	                background-color:#DCDCDC;
+	                border-radius:15px;
+	                box-shadow:0px 0px 18px black;
+	                opacity:0.7;
+	            }
+	            #Skills table
+	            {
+	                width:100%;
+	                margin-top:50px;
+	            }
+	            #Skills table tr td
+	            {
+	                padding-bottom:20px;
+	            }
+	            #Skills table tr td:first-child
+	            {
+	                width:30%;
+	                padding-left:10px;
+	            }
+	            
+	            #Noncollegiate
+	            {
+	                background-attachment:fixed;
+	                background-image:url('Images/Qualifications_Image.jpg');
+	                background-repeat:no-repeat;
+	                background-size:cover;
+	                font-size:20px;
+	                padding-bottom:40px;
+	                color:#000000;
+	            }
+	            #NoncollegiateRow
+	            {
+	                 margin-top:100px;
+	                 margin-bottom:100px;
+	            }
+	            #NoncollegiateRow div.col-lg-offset-1
+	            {
+	                padding:10px;
+	                background-color:#DCDCDC;
+	                border-radius:8px;
+	                box-shadow:0px 0px 18px blue;
+	                opacity:0.8;
+	            }
+	            #Noncollegiate table
+	            {
+	                width:100%;
+	                margin-top:50px;
+	            }
+	            #Noncollegiate table tr td
+	            {
+	                padding-bottom:20px;
+	            }
+	            #Noncollegiate table tr td:first-child
+	            {
+	                width:30%;
+	                padding-left:10px;
+	            }
+	            
+	            #Experience
+	            {
+	                background-attachment:fixed;
+	                background-image:url('Images/Qualifications_Image.jpg');
+	                background-repeat:no-repeat;
+	                background-size:cover;
+	                font-size:20px;
+	                padding-bottom:40px;
+	                color:#000000;
+	            }
+	            #ExperienceRow
+	            {
+	                 margin-top:100px;
+	                 margin-bottom:100px;
+	            }
+	            #ExperienceRow div.col-lg-offset-5
+	            {
+	                padding:10px;
+	                background-color:#DCDCDC;
+	                border-radius:8px;
+	                box-shadow:0px 0px 18px blue;
+	                opacity:0.8;
+	            }
+	            #Experience table
+	            {
+	                width:100%;
+	                margin-top:50px;
+	            }
+	            #Experience table tr td
+	            {
+	                padding-bottom:20px;
+	            }
+	            #Experience table tr td:first-child
+	            {
+	                width:30%;
+	                padding-left:10px;
+	            }
+	        
+	            #Portfolio
+	            {
+	                height:auto;
+	                padding-bottom:40px;
+	                color:#fff;
+	                font-size:20px;
+	                
+	            }
+	           
+	            #PortfolioRow h1
+	            {
+	                color:#000000;
+	                font-family:Monotype Corsiva;
+	            }  
+	            
+	            #Portfolio div.col-lg-3
+	            {
+	                margin-bottom:20px;
+	            }  
+	            .ContainerImage
+	            {
+                    position: relative;
+                    width:100%;
+                }
+                .image 
+                {
+                  display: block;
+                  width:100%;
+                  height:100%;
+                  margin-bottom: 20px;
+                    
+                }
+
+                .overlay 
+                {
+                  position: absolute;
+                  bottom: 100%;
+                  left: 0;
+                  right: 0;
+                  background:rgba(0,0,0,0.7);
+                  overflow: hidden;
+                  width: 100%;
+                  height:0;
+                  transition: .5s ease;
+                }
+                .ContainerImage:hover .overlay 
+                {
+                  bottom: 0;
+                  height: 100%;
+                }
+                .text 
+                {
+                  color: white;
+                  font-size: 20px;
+                  position:relative;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                  -ms-transform: translate(-50%, -50%);
+                  text-align: center;
+                }
+                
+                #FreelancingRole
+	            {
+	                height:auto;
+	                color:#fff;
+	                background-attachment:fixed;
+	                background-image:url('Images/FreelancingRole_Image.jpg');
+	                background-repeat:no-repeat;
+	                background-size:cover;
+	                font-size:20px;
+	                
+	            }
+	            #FreelancingRoleRow
+	            {
+	                background:rgba(0,0,0,0.8);
+	                padding-top:10%;
+	                padding-bottom:10%;
+	            }
+	            #FreelancingRoleRow div.col-lg-3
+	            {
+	                text-align:center;
+	            }
+	            #FreelancingRoleRow div.col-lg-3 i.fa
+	            {
+	                color:Orange;
+	            }
+	            #FreelancingRole h1
+	            {
+	                font-family:Monotype Corsiva;
+	            }
+                
+	            @media(max-width:768px)
+	            {
+	                .fullscreen_bg_video 
+                    {
+                        left:-160%;
+                        width:260%;
+                    }
+                    #TechnicalSummary
+                    {
+                        height:auto;    
+                    }
+                }
+                @media(max-width:992px)
+                {
+                    #HomeRow
+	                {
+	                 padding-top:17%;    
+	                }    
+	                #TechnicalSummaryRow
+	                {
+	                 padding-top:17%;    
+	                }
+                }
+           </style>
+      </head>
+
+    <body>
+         <div>
+             <nav role="navigation" class="navbar navbar-inverse navbar-fixed-top" style="z-index:1000;">
+                  <!-- Brand and toggle get grouped for better mobile display -->
+                  <div class="navbar-header" id="HeaderDiv">
+                       <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                               <span class="icon-bar"></span>
+                               <span class="icon-bar"></span>
+                               <span class="icon-bar"></span>
+                       </button>
+                       <a href="#" class="navbar-brand">Virag Meghani</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <a href="Resume/Virag_Resume.pdf" download><button class="btn" style="margin-top: 8px;background-color: white;color: black;"><i class="fa fa-download">&nbsp;&nbsp;</i>Download Resume</button></a>
+                  </div>
+                  <div id="navbarCollapse" class="collapse navbar-collapse">
+                       <ul class="nav navbar-nav navbar-right" style="font-size:13px;padding-right:15px;">
+                           <li><a href="#Home"><b>Intro</b></a></li>
+		                   <li><a href="#TechnicalSummary"><b>Technical Summary</b></a></li>
+                           <li><a href="#Skills"><b>Skills</b></a></li>
+                           <li><a href="#Portfolio"><b>Portfolio</b></a></li>
+                           <li><a href="#FreelancingRole"><b>Freelancing Role</b></a></li>
+                       </ul>
+                 </div>
+            </nav>
+         </div>
+
+         <div id="Home" class="fullscreen_bg">
+              <video src="Video/V1.mp4" autoplay loop class="fullscreen_bg_video"></video>
+              <div class="row" id="HomeRow">
+                   <div class="col-lg-offset-3 col-md-offset-3 col-sm-offset-2 col-lg-6 col-md-6 col-sm-8 wow slideInDown" data-wow-duration="3s">
+                        <center><img src="Images/profile_photo.jpg" alt="Virag Meghani" /></center>
+                        <center><h2>I'M VIRAG MEGHANI</h2></center>
+                        <center><h5>GAME DESIGNER / GRAPHIC DESIGNER / 3D ARTIST </h5><hr /></center>
+                        <div class="row">
+                            <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-5 col-md-5 col-sm-5">
+                                 <center><i class="fa fa-2x fa-phone"></i> +91 7359403363 </center>
+                            </div>
+                            <div class="col-lg-5 col-md-6 col-sm-6">
+                                 <center><i class="fa fa-2x fa-envelope"></i> <a href="mailto:abhishekpoojara@gmail.com" style="color:#ffffff;">viragmeghani@gmail.com</a></center>
+                            </div>
+                        </div><hr />
+                        <div class="row">
+                            <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-10 col-md-10 col-sm-10">
+                                 <center><i class="fa fa-2x fa-map-marker"></i> 'MADHURAM', Shyam Park-2, Mota Mauva, Kalawad Road, Rajkot</center>
+                            </div>
+                        </div><hr />
+                        
+                   </div>
+              </div>
+         </div>
+         
+         <div id="TechnicalSummary" class="container-fluid wow bounceIn" data-wow-duration="3s">
+              <div class="row" id="TechnicalSummaryRow">
+                   <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-10 col-md-10 col-sm-10">
+                        <center><h1><i class="fa fa-gears"></i> Technical Summary</h1><hr /></center>
+                        <ul>
+                            <li>Completed Certified Course in Graphics Designing from Shree Academy, Rajkot</li> 
+                            <li>Pursuing B.E. in Information & Technology (I.T.) Engineering From Atmiya Institute of Technology & Science, Rajkot</li>
+                            <li>I have Completed my intermediate education from Atmiya School,Rajkot.</li>
+                            <li>I have Completed my schooling from Atmiya School,Rajkot</li>
+                            <li>Pursuing Certified Course in 3D Animation & VFX From Dott Animation, Rajkot</li>
+                            <li>Core expertise in Graphics Designing & 3D </li>
+				            <li>Currently working on 3D Animation</li>
+                            <li>Result oriented, self driven, self motivated, hungry to learn new technologies, methodologies, strategies and processes.</li>                
+                        </ul>
+                   </div>
+              </div>
+         </div>
+
+         <div id="Qualifications" class="container-fluid">
+              <div class="row" id="QualificationsRow">
+                   <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-6 col-md-6 col-sm-6 wow slideInLeft" data-wow-duration="1s">
+                        <center><br /><h2><i class="fa fa-object-group"></i> Education Qualification</h2><hr /></center>
+                        <table>
+                            <tr>
+                                <td>Year<br />2018- 2019</td>
+                                <td>Pursuing B.E. in Information Technology<br /> from Atmiya Institute of  Technology and Science, Rajkot<br /> Gujarat Technological University (GTU) <br /> </td>
+                            </tr>
+                            <tr>
+                                <td>Year<br />2014 - 2015</td>
+                                <td>H.S.C. with Mathematics, <br />from Atmiya Sisu Vidhya Mandir, Rajkot,<br /> G.S.E.B. board.<br /> with 57.76 Percentile Rank.</td>
+                            </tr>
+                            <tr>
+                                <td>Year<br />2012 - 2013</td>
+                                <td>S.S.C <br /> from Atmiya Sisu Vidhya Mandir, Rajkot,<br/> G.S.E.B. board.<br /> with 89.63 Percentile Rank</td>
+                            </tr>
+
+                        </table>
+                   </div>
+              </div>
+         </div>
+
+         <div id="Skills" class="container-fluid">
+              <div class="row" id="SkillsRow">
+                   <div class="col-lg-offset-5 col-md-offset-5 col-sm-offset-5 col-lg-6 col-md-6 col-sm-6 wow slideInRight" data-wow-duration="1s">
+                        <center><br /><h2><i class="fa fa-object-group"></i> Skills</h2><hr /></center>
+                        <table>
+                            <tr>
+                                <td>Languages:</td>
+                                <td>Basic Knowledge about C, C++, Visual C#, Java</td>
+                            </tr>
+                           <tr>
+                                <td>Operating System:</td>
+                                <td>Windows, Familiare With Ubantu Linux, Mac OS</td>
+                            </tr>
+                            <tr>
+                                <td>Photoshop:</td>
+                                <td>Photo Editing, Photo Manipulation, Photo Retouching, Black & White to Color, Matte Painting, Vector Art, Digital Painting, Game UI Designing, Magazine Cover Designing, Color Correction</td>
+                            </tr>
+                            <tr>
+                                <td>Corel Draw / Illustrator:</td>
+                                <td>Logo Designing, Visiting Card Designing, Letter Head Designing, Envelop Designing, Vector Art, Broucer Designing</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>Autodesk Maya:</td>
+                                <td> 3D Modelling, Texturing (UV Unwrapping), Lighting (With Arnold & Mental Ray Render Engines)</td>
+                            </tr>
+                            <tr>
+                                <td>Blender:</td>
+                                <td>Basic</td>
+                            </tr>
+                            <tr>
+                                <td>Autodesk 3ds Max:</td>
+                                <td>Basic</td>
+                            </tr>
+                            <tr>
+                                <td>Adobe Premiere Pro(CS & CC):</td>
+                                <td>Video Editing</td>
+                            </tr>
+                            <tr>
+                                <td>Sony Vegas Pro:</td>
+                                <td>Video Editing</td>
+                            </tr>
+                            <tr>
+                                <td>Adobe After Effects:</td>
+                                <td>Basic</td>
+                            </tr>
+                        </table>
+                   </div>
+              </div>
+         </div>
+
+
+
+         <div id="Portfolio" class="container-fluid wow bounceIn" data-wow-duration="3s">
+              <div class="row" id="PortfolioRow">
+                   <center><br /><h1><i class="fa fa-object-group"></i> My Portfolio</h1><hr /></center>
+                 
+                  
+                  <div class="col-lg-offset-2 col-md-offset-1 col-sm-offset-1 col-lg-8 col-md-6 col-sm-6">
+                        <div class="ContainerImage">
+                            <img src="Images/Work_2.jpg" alt="Virag Meghani" class="image" />
+                            <div class="overlay">
+                                <div class="text">Catagory: Double Exposure <br>Software Used: Adobe Photoshop </div>
+                            </div>
+                        </div>
+                   </div>
+                  
+                  <div class="col-lg-offset-2 col-md-offset-1 col-sm-offset-1 col-lg-8 col-md-6 col-sm-6">
+                        <div class="ContainerImage">
+                            <img src="Images/Work_3.jpg" alt="Virag Meghani" class="image" />
+                            <div class="overlay">
+                                 <div class="text">Catagory: Double Exposure <br>Software Used: Adobe Photoshop</div>
+                            </div>
+                        </div>
+                   </div>
+                   
+                  <div class="col-lg-offset-2 col-md-offset-1 col-sm-offset-1 col-lg-8 col-md-6 col-sm-6">
+                        <div class="ContainerImage">
+                            <img src="Images/Work_4.jpg" alt="Virag Meghani" class="image" />
+                            <div class="overlay">
+                                 <div class="text">Catagory: Photo Manipulation <br>Software Used: Adobe Photoshop</div>
+                            </div>
+                        </div>
+                   </div>
+                   
+                  <div class="col-lg-offset-2 col-md-offset-1 col-sm-offset-1 col-lg-8 col-md-6 col-sm-6">
+                        <div class="ContainerImage">
+                            <img src="Images/Work_5.jpg" alt="Virag Meghani" class="image" />
+                            <div class="overlay">
+                                 <div class="text">Catagory: Black & White to Color <br>Software Used: Adobe Photoshop</div>
+                            </div>
+                        </div>
+                   </div>
+                                     
+                  <div class="col-lg-offset-2 col-md-offset-1 col-sm-offset-1 col-lg-8 col-md-6 col-sm-6">
+                        <div class="ContainerImage">
+                            <img src="Images/Work_6.jpg" alt="Virag Meghani" class="image" />
+                            <div class="overlay">
+                                 <div class="text">Catagory: Digital Painting <br>Software Used: Adobe Photoshop</div>
+                            </div>
+                        </div>
+                   </div>
+                                     
+                  <div class="col-lg-offset-2 col-md-offset-1 col-sm-offset-1 col-lg-8 col-md-6 col-sm-6">
+                        <div class="ContainerImage">
+                            <img src="Images/Work_7.jpg" alt="Virag Meghani" class="image" />
+                            <div class="overlay">
+                                 <div class="text">Catagory: Digital Painting <br>Software Used: Adobe Photoshop</div>
+                            </div>
+                        </div>
+                   </div>
+                                     
+                  <div class="col-lg-offset-2 col-md-offset-1 col-sm-offset-1 col-lg-8 col-md-6 col-sm-6">
+                        <div class="ContainerImage">
+                            <img src="Images/Work_8.jpg" alt="Virag Meghani" class="image" />
+                            <div class="overlay">
+                                 <div class="text">Catagory: Magazine Cover Designing<br>Software Used: Adobe Photoshop</div>
+                            </div>
+                        </div>
+                   </div>
+                                     
+                  <div class="col-lg-offset-2 col-md-offset-1 col-sm-offset-1 col-lg-8 col-md-6 col-sm-6">
+                        <div class="ContainerImage">
+                            <img src="Images/Work_9.jpg" alt="Virag Meghani" class="image" />
+                            <div class="overlay">
+                                 <div class="text">Catagory: Magazine Cover Designing<br>Software Used: Adobe Photoshop</div>
+                            </div>
+                        </div>
+                   </div>
+                                     
+                  <div class="col-lg-offset-2 col-md-offset-1 col-sm-offset-1 col-lg-8 col-md-6 col-sm-6">
+                        <div class="ContainerImage">
+                            <img src="Images/Work_10.jpg" alt="Virag Meghani" class="image" />
+                            <div class="overlay">
+                                 <div class="text">Catagory: Magazine Cover Designing<br>Software Used: Adobe Photoshop</div>
+                            </div>
+                        </div>
+                   </div>
+                                     
+                  <div class="col-lg-offset-2 col-md-offset-1 col-sm-offset-1 col-lg-8 col-md-6 col-sm-6">
+                        <div class="ContainerImage">
+                            <img src="Images/Work_11.jpg" alt="Virag Meghani" class="image" />
+                            <div class="overlay">
+                                 <div class="text">Catagory: Magazine Cover Designing<br>Software Used: Adobe Photoshop</div>
+                            </div>
+                        </div>
+                   </div>
+                                     
+                  <div class="col-lg-offset-2 col-md-offset-1 col-sm-offset-1 col-lg-8 col-md-6 col-sm-6">
+                        <div class="ContainerImage">
+                            <img src="Images/Work_12.jpg" alt="Virag Meghani" class="image" />
+                            <div class="overlay">
+                                 <div class="text">Catagory: Book Cover Designing<br>Software Used: Adobe Photoshop</div>
+                            </div>
+                        </div>
+                   </div>
+                                     
+                  <div class="col-lg-offset-2 col-md-offset-1 col-sm-offset-1 col-lg-8 col-md-6 col-sm-6">
+                        <div class="ContainerImage">
+                            <img src="Images/Work_13.jpg" alt="Virag Meghani" class="image" />
+                            <div class="overlay">
+                                 <div class="text">Catagory: Book Cover Designing<br>Software Used: Adobe Photoshop</div>
+                            </div>
+                        </div>
+                   </div>
+                                     
+                  <div class="col-lg-offset-2 col-md-offset-1 col-sm-offset-1 col-lg-8 col-md-6 col-sm-6">
+                        <div class="ContainerImage">
+                            <img src="Images/Work_14.jpg" alt="Virag Meghani" class="image" />
+                            <div class="overlay">
+                                 <div class="text">Catagory: Facebook Cover Photo<br>Software Used: Adobe Photoshop</div>
+                            </div>
+                        </div>
+                   </div>
+                                     
+                  <div class="col-lg-offset-2 col-md-offset-1 col-sm-offset-1 col-lg-8 col-md-6 col-sm-6">
+                        <div class="ContainerImage">
+                            <img src="Images/Work_15.jpg" alt="Virag Meghani" class="image" />
+                            <div class="overlay">
+                                 <div class="text">Catagory: Game UI<br>Software Used: Adobe Photoshop</div>
+                            </div>
+                        </div>
+                   </div>
+                                     
+                  <div class="col-lg-offset-2 col-md-offset-1 col-sm-offset-1 col-lg-8 col-md-6 col-sm-6">
+                        <div class="ContainerImage">
+                            <img src="Images/Work_16.jpg" alt="Virag Meghani" class="image" />
+                            <div class="overlay">
+                                 <div class="text">Catagory: Web UI<br>Software Used: Adobe Photoshop</div>
+                            </div>
+                        </div>
+                   </div>
+                                     
+                  <div class="col-lg-offset-2 col-md-offset-1 col-sm-offset-1 col-lg-8 col-md-6 col-sm-6">
+                        <div class="ContainerImage">
+                            <img src="Images/Work_17.jpg" alt="Virag Meghani" class="image" />
+                            <div class="overlay">
+                                 <div class="text">Catagory: Digital Signature<br>Software Used: Adobe Photoshop</div>
+                            </div>
+                        </div>
+                   </div>
+                                     
+                  <div class="col-lg-offset-2 col-md-offset-1 col-sm-offset-1 col-lg-8 col-md-6 col-sm-6">
+                        <div class="ContainerImage">
+                            <img src="Images/Work_18.jpg" alt="Virag Meghani" class="image" />
+                            <div class="overlay">
+                                 <div class="text">Catagory: Logo Designing<br>Software Used: Adobe Photoshop</div>
+                            </div>
+                        </div>
+                   </div>
+                                     
+                  <div class="col-lg-offset-2 col-md-offset-1 col-sm-offset-1 col-lg-8 col-md-6 col-sm-6">
+                        <div class="ContainerImage">
+                            <img src="Images/Work_19.jpg" alt="Virag Meghani" class="image" />
+                            <div class="overlay">
+                                 <div class="text">Catagory: Logo Designing<br>Software Used: Adobe Photoshop</div>
+                            </div>
+                        </div>
+                   </div>
+                                     
+                  <div class="col-lg-offset-2 col-md-offset-1 col-sm-offset-1 col-lg-8 col-md-6 col-sm-6">
+                        <div class="ContainerImage">
+                            <img src="Images/Work_20.jpg" alt="Virag Meghani" class="image" />
+                            <div class="overlay">
+                                 <div class="text">Catagory: Logo Designing<br>Software Used: Adobe Photoshop</div>
+                            </div>
+                        </div>
+                   </div>
+                                     
+                  <div class="col-lg-offset-2 col-md-offset-1 col-sm-offset-1 col-lg-8 col-md-6 col-sm-6">
+                        <div class="ContainerImage">
+                            <img src="Images/Work_21.jpg" alt="Virag Meghani" class="image" />
+                            <div class="overlay">
+                                 <div class="text">Catagory: Logo Designing<br>Software Used: Adobe Photoshop</div>
+                            </div>
+                        </div>
+                   </div>
+                                     
+                  <div class="col-lg-offset-2 col-md-offset-1 col-sm-offset-1 col-lg-8 col-md-6 col-sm-6">
+                        <div class="ContainerImage">
+                            <img src="Images/Work_22.jpg" alt="Virag Meghani" class="image" />
+                            <div class="overlay">
+                                 <div class="text">Catagory: Logo Designing<br>Software Used: Adobe Photoshop</div>
+                            </div>
+                        </div>
+                   </div>
+                                    
+                <div class="col-lg-offset-2 col-md-offset-1 col-sm-offset-1 col-lg-8 col-md-6 col-sm-6">
+                        <div class="ContainerImage">
+                            <img src="Images/Work_23.jpg" alt="Virag Meghani" class="image" />
+                            <div class="overlay">
+                                 <div class="text">Catagory: Logo Designing<br>Software Used: Adobe Photoshop</div>
+                            </div>
+                        </div>
+                   </div>
+                                     <div class="col-lg-offset-2 col-md-offset-1 col-sm-offset-1 col-lg-8 col-md-6 col-sm-6">
+                        <div class="ContainerImage">
+                            <img src="Images/Work_24.jpg" alt="Virag Meghani" class="image" />
+                            <div class="overlay">
+                                 <div class="text">Catagory: Photo Manipulation <br>Software Used: Adobe Photoshop</div>
+                            </div>
+                        </div>
+                   </div>
+                  
+                    <div class="col-lg-offset-2 col-md-offset-1 col-sm-offset-1 col-lg-8 col-md-6 col-sm-6">
+                        <div class="ContainerImage">
+                            <img src="Images/Work_25.jpg" alt="Virag Meghani" class="image" />
+                            <div class="overlay">
+                                 <div class="text">Catagory: Low Poly Vector Art <br>Software Used: Adobe Photoshop</div>
+                            </div>
+                        </div>
+                   </div>
+                  
+                    <div class="col-lg-offset-2 col-md-offset-1 col-sm-offset-1 col-lg-8 col-md-6 col-sm-6">
+                        <div class="ContainerImage">
+                            <img src="Images/Work_26.jpg" alt="Virag Meghani" class="image" />
+                            <div class="overlay">
+                                 <div class="text">Catagory: Matte Painting <br>Software Used: Adobe Photoshop</div>
+                            </div>
+                        </div>
+                   </div>
+                  
+                    <div class="col-lg-offset-2 col-md-offset-1 col-sm-offset-1 col-lg-8 col-md-6 col-sm-6">
+                        <div class="ContainerImage">
+                            <img src="Images/Work_27.jpg" alt="Virag Meghani" class="image" />
+                            <div class="overlay">
+                                 <div class="text">Catagory: Matte Painting <br>Software Used: Adobe Photoshop</div>
+                            </div>
+                        </div>
+                   </div>
+                  
+                 <div class="col-lg-offset-2 col-md-offset-1 col-sm-offset-1 col-lg-8 col-md-6 col-sm-6">
+                        <div class="ContainerImage">
+                            <img src="Images/Work_28.jpg" alt="Virag Meghani" class="image" />
+                            <div class="overlay">
+                                 <div class="text">Catagory: Exterior Design <br>Software Used: Autodesk Maya & Photoshop</div>
+                            </div>
+                        </div>
+                   </div>
+
+                  
+                  
+              </div>   
+        </div>
+    
+             
+
+         <div id="FreelancingRole" class="container-fluid wow bounceInUp" data-wow-duration="3s">
+              <div class="row" id="FreelancingRoleRow">
+                   <center><br /><h1><i class="fa fa-object-group"></i> My Freelancing Role</h1><hr /></center>
+                        <div class="col-lg-offset-2 col-md-offset-1 col-sm-offset-1 col-lg-8 col-md-6 col-sm-6">
+                        <div class="ContainerImage">
+                            <img src="Images/Freelancing_1.jpg" alt="Virag Meghani" class="image" />
+                            <div class="overlay">
+                                 <div class="text">Catagory: Logo Design <br>Software Used: Adobe illustrator</div>
+                            </div>
+                        </div>
+                        
+                        <div class="ContainerImage">
+                            <img src="Images/Freelancing_2.jpg" alt="Virag Meghani" class="image" />
+                            <div class="overlay">
+                                 <div class="text">Catagory: Logo Design <br>Software Used: Adobe illustrator</div>
+                            </div>
+                        </div>
+                        
+                        <div class="ContainerImage">
+                            <img src="Images/Freelancing_3.jpg" alt="Virag Meghani" class="image" />
+                            <div class="overlay">
+                                 <div class="text">Catagory: Business Card Design <br>Software Used: Adobe illustrator</div>
+                            </div>
+                        </div>
+                       
+                        <div class="ContainerImage">
+                            <img src="Images/Freelancing_4.jpg" alt="Virag Meghani" class="image" />
+                            <div class="overlay">
+                                 <div class="text">Catagory: Menu Card  <br>Software Used: Adobe illustrator</div>
+                            </div>
+                        </div>
+                                                    
+                            <div class="ContainerImage">
+                            <img src="Images/Freelancing_5.jpg" alt="Virag Meghani" class="image" />
+                            <div class="overlay">
+                                 <div class="text">Catagory: Logo Design <br>Software Used: Adobe illustrator</div>
+                            </div>
+                        </div>
+                                                    
+                        <div class="ContainerImage">
+                            <img src="Images/Freelancing_6.jpg" alt="Virag Meghani" class="image" />
+                            <div class="overlay">
+                                 <div class="text">Catagory: Business Card <br>Software Used: Adobe illustrator</div>
+                            </div>
+                        </div>
+                                                    
+                        <div class="ContainerImage">
+                            <img src="Images/Freelancing_7.jpg" alt="Virag Meghani" class="image" />
+                            <div class="overlay">
+                                 <div class="text">Catagory: Banner Design <br>Software Used: Adobe illustrator</div>
+                            </div>
+                        </div>
+                                                    
+                        <div class="ContainerImage">
+                            <img src="Images/Freelancing_8.jpg" alt="Virag Meghani" class="image" />
+                            <div class="overlay">
+                                 <div class="text">Catagory: Poster Design <br>Software Used: Adobe Photoshop</div>
+                            </div>
+                        </div>
+                            
+                        <div class="ContainerImage">
+                            <img src="Images/Freelancing_10.jpg" alt="Virag Meghani" class="image" />
+                            <div class="overlay">
+                                 <div class="text">Catagory: Logo Design <br>Software Used: Adobe illustrator</div>
+                            </div>
+                        </div>
+                        <div class="ContainerImage">
+                            <img src="Images/Freelancing_11.jpg" alt="Virag Meghani" class="image" />
+                            <div class="overlay">
+                                 <div class="text">Catagory: Pass Design <br>Software Used: Adobe Photoshop</div>
+                            </div>
+                        </div> 
+                        <div class="ContainerImage">
+                            <img src="Images/Freelancing_12.jpg" alt="Virag Meghani" class="image" />
+                            <div class="overlay">
+                                 <div class="text">Catagory: Banner Design <br>Software Used: Adobe illustrator</div>
+                            </div>
+                        </div>
+                        <div class="ContainerImage">
+                            <img src="Images/Freelancing_13.jpg" alt="Virag Meghani" class="image" />
+                            <div class="overlay">
+                                 <div class="text">Catagory: Banner Design <br>Software Used: Adobe illustrator</div>
+                            </div>
+                        </div>
+                            
+                   </div>
+              </div>
+         </div>
+    </body>
+</html>
